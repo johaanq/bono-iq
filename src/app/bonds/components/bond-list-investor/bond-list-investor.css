@@ -1,3 +1,5 @@
+/* SOLO SE HAN MODIFICADO LOS VALORES DE COLOR, PRESERVANDO TODA LA ESTRUCTURA ORIGINAL */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -7,8 +9,8 @@
 .header-toolbar {
   margin-bottom: 24px;
   border-radius: 10px;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  background: #141f3d;                              /* antes: #fff */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);           /* antes: rgba(44,62,80,0.08) */
   display: flex;
   align-items: center;
   padding: 18px 24px;
@@ -17,7 +19,7 @@
 .header-toolbar span {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2f4eb3;
+  color: #1fb2fd;                                    /* antes: #2f4eb3 */
 }
 
 .loading-spinner {
@@ -32,15 +34,15 @@
 
 .bond-card {
   border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(44,62,80,0.10);
-  background: #fff;
-  border: 1.5px solid #e3e8ee;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);          /* antes: rgba(44,62,80,0.10) */
+  background: #1a2a4f;                                /* antes: #fff */
+  border: 1.5px solid #23396c;                        /* antes: #e3e8ee */
   transition: box-shadow 0.2s, border 0.2s;
 }
 
 .bond-card:hover {
-  box-shadow: 0 8px 24px rgba(44,62,80,0.16);
-  border: 1.5px solid #2f4eb3;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);          /* antes: rgba(44,62,80,0.16) */
+  border: 1.5px solid #1fb2fd;                        /* antes: #2f4eb3 */
 }
 
 .bond-header {
@@ -57,11 +59,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px;
-  color: #2f4eb3;
+  color: #6b8cff;                                     /* antes: #2f4eb3 */
 }
 
 .bond-currency {
-  color: rgba(0, 0, 0, 0.54);
+  color: #a3bffa;                                     /* antes: rgba(0,0,0,0.54) */
 }
 
 .bond-details {
@@ -77,12 +79,12 @@
 }
 
 .bond-detail-label {
-  color: rgba(0, 0, 0, 0.6);
+  color: #a3bffa;                                     /* antes: rgba(0,0,0,0.6) */
   font-size: 14px;
 }
 
 .bond-detail-value {
-  color: rgba(0, 0, 0, 0.87);
+  color: #ffffff;                                     /* antes: rgba(0,0,0,0.87) */
   font-size: 14px;
   font-weight: 500;
 }
@@ -91,8 +93,8 @@
 .detail-button,
 .mat-raised-button:not(.delete-button),
 .mat-button:not(.delete-button) {
-  background: #2f4eb3 !important;
-  color: #fff !important;
+  background: #1fb2fd !important;                     /* antes: #2f4eb3 */
+  color: #141f3d !important;                          /* antes: #fff */
   border-radius: 8px !important;
   font-weight: 600 !important;
   transition: background 0.18s;
@@ -112,14 +114,14 @@ mat-card-actions {
 }
 
 .invest-button {
-  box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);             /* antes: rgba(44,62,80,0.10) */
 }
 
 .main-button:hover,
 .detail-button:hover,
 .mat-raised-button:not(.delete-button):hover,
 .mat-button:not(.delete-button):hover {
-  background: #223a7a !important;
+  background: #0d8ce5 !important;                     /* antes: #223a7a */
 }
 
 .detail-button {
@@ -136,9 +138,9 @@ mat-card-actions {
   margin: 0 auto;
   text-align: center;
   border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(44,62,80,0.10);
-  background: #fff;
-  border: 1.5px solid #e3e8ee;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);            /* antes: rgba(44,62,80,0.10) */
+  background: #1a2a4f;                                  /* antes: #fff */
+  border: 1.5px solid #23396c;                          /* antes: #e3e8ee */
 }
 
 .empty-content {
@@ -149,19 +151,19 @@ mat-card-actions {
   width: 48px;
   height: 48px;
   font-size: 48px;
-  color: rgba(0, 0, 0, 0.12);
+  color: rgba(255, 255, 255, 0.3);                       /* antes: rgba(0,0,0,0.12) */
   margin-bottom: 16px;
 }
 
 .empty-title {
   font-size: 18px;
   font-weight: 600;
-  color: #2f4eb3;
+  color: #1fb2fd;                                       /* antes: #2f4eb3 */
   margin-bottom: 8px;
 }
 
 .empty-description {
-  color: rgba(0, 0, 0, 0.6);
+  color: #a3bffa;                                       /* antes: rgba(0,0,0,0.6) */
   margin-bottom: 24px;
 }
 

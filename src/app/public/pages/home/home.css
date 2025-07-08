@@ -1,9 +1,14 @@
 /* Estilos generales */
 .dashboard-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, rgba(54, 55, 55, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(13, 23, 47, 0.9) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  ); /* degradado de azul muy oscuro a negro */
   font-family: 'Roboto', sans-serif;
   padding: 20px;
+  color: #ffffff; /* texto principal en blanco */
 }
 
 .dashboard-content {
@@ -13,9 +18,9 @@
 
 /* Tarjeta de bienvenida */
 .welcome-card {
-  background-color: white;
+  background-color: #141f3d; /* azul noche */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 30px;
   margin-bottom: 30px;
   text-align: center;
@@ -24,22 +29,22 @@
 .welcome-title {
   font-size: 2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff; /* blanco puro */
   margin-bottom: 15px;
 }
 
 .welcome-message {
   font-size: 1.1rem;
-  color: #7f8c8d;
+  color: #a3bffa; /* gris azulado claro */
   max-width: 800px;
   margin: 0 auto;
 }
 
 /* Acciones rápidas */
 .actions-card {
-  background-color: white;
+  background-color: #141f3d; /* azul noche */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 25px;
   margin-bottom: 30px;
 }
@@ -47,7 +52,7 @@
 .section-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #1fb2fd; /* azul brillante */
   margin-bottom: 25px;
   text-align: center;
 }
@@ -59,19 +64,19 @@
 }
 
 .action-card {
-  background-color: white;
+  background-color: #1a2a4f; /* tono intermedio */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   padding: 20px;
   text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #0d172f; /* azul muy oscuro */
 }
 
 .action-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }
 
 .action-icon-container {
@@ -79,8 +84,8 @@
 }
 
 .action-icon {
-  background-color: #3f51b5;
-  color: white;
+  background-color: #1fb2fd; /* azul vibrante */
+  color: #141f3d; /* azul noche */
   width: 50px;
   height: 50px;
   display: flex;
@@ -92,20 +97,20 @@
 .action-title {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .action-description {
   font-size: 0.9rem;
-  color: #7f8c8d;
+  color: #a3bffa;
 }
 
 /* Características del sistema */
 .features-card {
-  background-color: white;
+  background-color: #141f3d; /* azul noche */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 25px;
   margin-bottom: 30px;
 }
@@ -117,36 +122,36 @@
 }
 
 .feature-card {
-  background-color: white;
+  background-color: #1a2a4f; /* tono intermedio */
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #0d172f;
 }
 
 .feature-icon {
   font-size: 2.5rem;
-  color: #3f51b5;
+  color: #1fb2fd; /* azul vibrante */
   margin-bottom: 15px;
 }
 
 .feature-title {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .feature-description {
   font-size: 0.9rem;
-  color: #7f8c8d;
+  color: #a3bffa;
 }
 
 /* Tabla de bonos */
 .recent-bonds-card {
-  background-color: white;
+  background-color: #141f3d; /* azul noche */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 25px;
   margin-bottom: 30px;
 }
@@ -161,8 +166,8 @@
 }
 
 .bonds-table th {
-  background-color: #f5f7fa;
-  color: #2c3e50;
+  background-color: #1a2a4f; /* tono intermedio */
+  color: #ffffff;
   font-weight: 600;
   padding: 12px 15px;
   text-align: left;
@@ -170,21 +175,25 @@
 
 .bonds-table td {
   padding: 12px 15px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #0d172f; /* azul muy oscuro */
+  color: #cfd8e9; /* gris muy claro */
 }
 
 .bond-name {
   font-weight: 500;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
-.bond-currency, .rate-type, .payment-frequency {
+.bond-currency,
+.rate-type,
+.payment-frequency {
   font-size: 0.8rem;
-  color: #7f8c8d;
+  color: #a3bffa;
 }
 
-.view-all-button, .details-button {
-  color: #3f51b5;
+.view-all-button,
+.details-button {
+  color: #1fb2fd;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -192,9 +201,9 @@
 
 /* Estado vacío */
 .empty-state-card {
-  background-color: white;
+  background-color: #141f3d; /* azul noche */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 40px 20px;
   text-align: center;
   margin-bottom: 30px;
@@ -203,25 +212,26 @@
 .empty-state-icon {
   font-size: 4rem;
   margin-bottom: 20px;
+  color: #1fb2fd;
 }
 
 .empty-state-title {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
 .empty-state-message {
-  color: #7f8c8d;
+  color: #a3bffa;
   max-width: 500px;
   margin: 0 auto 25px;
   font-size: 1.1rem;
 }
 
 .create-bond-button {
-  background-color: #3f51b5;
-  color: white;
+  background-color: #1fb2fd;
+  color: #141f3d;
   font-weight: 500;
   padding: 10px 25px;
   border-radius: 6px;
@@ -234,8 +244,8 @@
 }
 
 .create-bond-button:hover {
-  background-color: #334296;
-  color: white;
+  background-color: #0d8ce5;
+  color: #141f3d;
 }
 
 /* Spinner de carga */
@@ -248,7 +258,8 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .actions-grid, .features-grid {
+  .actions-grid,
+  .features-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -262,7 +273,8 @@
 }
 
 @media (max-width: 480px) {
-  .actions-grid, .features-grid {
+  .actions-grid,
+  .features-grid {
     grid-template-columns: 1fr;
   }
 
@@ -270,7 +282,10 @@
     padding: 15px;
   }
 
-  .welcome-card, .actions-card, .features-card, .recent-bonds-card {
+  .welcome-card,
+  .actions-card,
+  .features-card,
+  .recent-bonds-card {
     padding: 20px 15px;
   }
 

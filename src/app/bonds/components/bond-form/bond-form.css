@@ -1,8 +1,10 @@
+/* SOLO SE HAN MODIFICADO LOS VALORES DE COLOR, PRESERVANDO TODA LA ESTRUCTURA ORIGINAL */
+
 .bond-form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f7fa;
+  background-color: #141f3d;                /* fondo: azul noche */
   padding: 40px 16px;
 }
 
@@ -10,8 +12,8 @@
   max-width: 1200px;
   margin-bottom: 24px;
   border-radius: 10px;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  background: #23396c;                       /* fondo: azul profundo */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   padding: 18px 24px;
@@ -20,7 +22,7 @@
 .bond-form-header-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #2f4eb3;
+  color: #1fb2fd;                            /* texto: cian brillante */
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -30,7 +32,7 @@
 
 .gasto-porcentaje {
   margin-left: 8px;
-  color: #3f51b5;
+  color: #a3bffa;                            /* texto: azul claro */
   font-weight: 600;
   font-size: 0.95em;
   vertical-align: middle;
@@ -38,12 +40,12 @@
 
 .gasto-info {
   margin-top: 10px;
-  background: #f0f4ff;
-  border-left: 4px solid #3f51b5;
+  background: #1a2a4f;                       /* fondo: azul medio */
+  border-left: 4px solid #1fb2fd;            /* borde: acento cian */
   padding: 8px 12px;
   border-radius: 6px;
   font-size: 0.95em;
-  color: #2b3a5b;
+  color: #ffffff;                            /* texto: blanco */
   display: flex;
   align-items: center;
   gap: 8px;
@@ -57,8 +59,8 @@
 mat-card {
   padding: 24px;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: #23396c;                 /* fondo: azul profundo */
 }
 
 .bond-form-columns {
@@ -89,7 +91,8 @@ mat-card {
 .bond-section {
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 4px rgba(0,0,0,0.09);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  background: #ffffff;                       /* fondo: azul medio */
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -99,9 +102,9 @@ mat-card {
 .bond-section-title {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #34495e;
+  color: #1fb2fd;                            /* texto: cian brillante */
   margin: 0 0 8px 0;
-  border-left: 4px solid #3f51b5;
+  border-left: 4px solid #a3bffa;            /* borde: azul claro */
   padding-left: 12px;
 }
 
@@ -121,7 +124,7 @@ mat-card {
   gap: 12px;
   margin-top: 32px;
   padding-top: 20px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #1a2a4f;             /* línea: azul medio */
 }
 
 .bond-btn {
@@ -131,12 +134,12 @@ mat-card {
 }
 
 .bond-btn-cancel {
-  color: #5a5a5a;
-  border-color: #cfd8dc;
+  color: #a3bffa;                            /* texto: azul claro */
+  border-color: #a3bffa;                     /* borde: azul claro */
 }
 
 .bond-btn-cancel:hover {
-  background-color: #f1f1f1;
+  background-color: #141f3d;                 /* hover fondo: azul noche */
 }
 
 .main-button {
@@ -162,13 +165,13 @@ mat-progress-spinner {
 }
 
 .edit-profile-changed {
-  background-color: #2B4A99 !important;
-  color: #fff !important;
+  background-color: #1fb2fd !important;      /* botón activo: cian brillante */
+  color: #141f3d !important;                 /* texto: azul noche */
   transition: background 0.2s;
 }
 
 .edit-profile-inactive {
-  background-color: #e0e3ee !important;
-  color: #2B4A99 !important;
+  background-color: #23396c !important;      /* botón inactivo: azul profundo */
+  color: #a3bffa !important;                 /* texto: azul claro */
   transition: background 0.2s;
 }
